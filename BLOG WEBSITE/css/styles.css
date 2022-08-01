@@ -1,0 +1,231 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900,500);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+    
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    background: #fff;
+    /* margin:0;
+    padding:0; */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #858585;
+}
+
+/* Header ( Heading ~ Blog Site)
+----------------------------------------------*/
+.header {
+    /* position: fixed; */
+    width: 100%;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-top: 2px solid #fb6c00;
+    
+}
+
+/* BLOG HEADING TARGET */
+.navbar-brand b {
+    color: #fb6c00;
+}
+/* 
+
+    /* Giving white margin to the header */
+.header .navbar {
+    margin: 0;
+    background: #fff;
+    border: 0;
+}    
+
+/* active status of Home  */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #fb6c00;
+}    
+
+/* Hovering style */
+
+.navbar-nav > li:hover {
+    background-color: #00f7ff;
+    border-radius: 7px;
+    font-weight: bold;
+}    
+.header .navbar-nav > li > a {
+    padding: 25px 18px;
+    border-radius: 7px;
+    /* font-weight: bold; */
+}    
+
+/* ==============================================================*/
+
+/* margin after navigation bar */
+.page-section {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+}    
+
+
+/* Managing let's learn with blog site position */
+.page-section h1 {
+    font-size: 3.5em;
+    margin: 90px 0 30px;
+    line-height: 1.2em;
+}    
+
+/* ==============================================================*/
+/*--- Banner ----*/
+
+/* Background Image container */
+.banner-container {
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
+    height: 600px;
+    /* background: url("../images/banner-bg.jpg") no-repeat; */
+    /* background: url("../images/Image506.jpg") no-repeat; */
+    /* background: url("../images/Image643.jpg") no-repeat; */
+    /* background: url("../images/Image717.jpg") no-repeat; */
+    background: url("../images/Image033.jpg") no-repeat;
+
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+/* home about us portfolio contact us targeting */
+/* ==============================================================*/
+
+
+
+
+/* More button css */
+
+.button-outline {
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(255,255,255,0.15);
+    border-radius: 6px;
+}    
+
+.button-outline:hover{
+    background-color: papayawhip;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}    
+
+/* ==============================================================*/
+
+
+/* About Us Section targeted */
+
+/* Color of the text */
+.pDark p {
+    color: #2B2B2B;
+}    
+
+/* ABOUT US BACKGROUND  */
+.darkBg {
+    background: #fb6c00;
+}    
+
+/* ABOUT US HEADING */
+    .darkBg h2 {
+        color: #fff;
+    }    
+
+
+/* ==============================================================*/    
+
+/* BLOGS */
+
+/* To make images align center */
+.text-content{
+    width: 50%;
+    margin: auto;
+}
+
+
+/* ==============================================================*/
+
+/* Portfolio img setting */
+#portfolio img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 10px;   
+}
+
+/* all web design blogs listing in css */
+    nav#filter li {
+        display: inline-block;
+        margin: 0 0 0 5px;
+    }
+
+    /* listing customization */
+    nav#filter a {
+        padding: 4px 12px;
+        line-height: 20px;
+        border: 1px solid #fb6c00;
+        text-decoration: none;
+    }
+
+    /* current page showing active */
+    .current {
+        background: #fb6c00;
+        color: #fff;
+    }
+    /* ==============================================================*/
+
+/* ==============================================================*/
+
+/* contact us form */
+.form-control {
+    border-radius: 4px;
+}        
+
+.mrgn30 {
+    margin: 30px 0;
+}        
+
+/* ==============================================================*/
+
+.copyright {
+    color: #6D6D6D;
+    background: #131313;
+    padding: 20px 0;
+}        
+
+#top {
+    position: relative;
+}        
+
+/* ==============================================================*/
+
+
+@media (min-width: 968px) {
+    .header .navbar-brand {
+        padding-left: 0;
+    }
+
+    .navbar-nav {
+        float: right;
+    }
+}
